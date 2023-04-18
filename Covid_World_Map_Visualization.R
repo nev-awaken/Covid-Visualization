@@ -3,9 +3,10 @@ library(ggplot2)
 library(mapdata)
 library(tidyverse)
 library(scales)
+library(dplyr)
 
 #Setting the Working Directory
-setwd("C:/Users/nevin/Documents/R Projects")
+setwd("C:/Users/R Projects")
 covid_death <- read.csv("CovidDeaths.csv")
 
 
